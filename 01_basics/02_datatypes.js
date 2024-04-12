@@ -1,3 +1,7 @@
+ "use strict";  // treat all js code as newer version
+
+ // alert(3+3) // we are using nodejs , not browser
+
 console.log("Manish");
 let name="Manish"             
 let age= 18
@@ -12,7 +16,7 @@ let state = null
      undefined => value not assigned yet
      symbol => when we talk about unique
   */
- 
+
  console.log(typeof null); // object
  console.log(typeof undefined); // undefined
 
