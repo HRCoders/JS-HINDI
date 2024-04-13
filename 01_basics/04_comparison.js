@@ -1,10 +1,10 @@
 /*  Comparison of same Datatypes */
 
 // console.log(2>1);
-// console.log(2>=1);
-// console.log(2<1);
-// console.log(2==1);
+// console.log(2>=1);;
 // console.log(2!=1);
+// console.log(2<1);
+// console.log(2==1)
 
 
 /*  Comparison of Different Datatypes */
