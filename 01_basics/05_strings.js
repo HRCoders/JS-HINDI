@@ -59,12 +59,29 @@ const repoCount = 30
 // valueOf: ƒ valueOf()
 // Symbol(Symbol.iterator): ƒ [Symbol.iter
 
-const gameName = new String("ladiisharma")
+const gameName = new String("ladii-hc-sharma")
 
 // console.log(gameName[1]);
 // console.log(gameName.__proto__);
 
-console.log(gameName.length);
-console.log(gameName.toUpperCase());
-console.log(gameName.charAt(4));
-console.log(gameName.indexOf('d'));
+// console.log(gameName.length); // to find length of string
+// console.log(gameName.toUpperCase()); // change to uppercase
+// console.log(gameName.charAt(4)); // to find char at 4 no.
+// console.log(gameName.indexOf('d')); // to ]find position of char
+
+const newString = gameName.substring(0,4) // to slice the string from start of string
+//console.log(newString);
+const anotherString = gameName.slice(-10,4) // to slice from end of string
+//console.log(anotherString);
+
+const newStringOne = "   Manish  "
+// console.log(newStringOne);
+// console.log(newStringOne.trim()); // .trim remove space
+
+const url = "https://manish.com/manish%20sharma"
+
+console.log(url.replace('%20','-'));
+console.log(url.includes('manish'));
+console.log(url.includes('ladii'));
+
+console.log(gameName.split('-')); // to split string on the basics of separator
